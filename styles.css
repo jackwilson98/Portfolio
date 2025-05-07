@@ -101,15 +101,66 @@ nav ul li a:visited {
     font-size: 1rem; 
 }
 
+#skills-and-technologies {
+    margin: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+#skills-and-technologies h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding-bottom: none;
+}
+
+#skills-and-technologies li{
+    margin: 0;
+    padding: 5px;
+}
+
+.front-end-development{
+    font-size: 1.2rem;
+
+}
+
+.web-Accessibility{
+    font-size: 1.2rem;
+
+}
+
+.version-control{
+    font-size: 1.2rem;
+
+}
+
+#projects {
+    border-bottom: 1px solid black;
+}
+
+#projects h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding-bottom: none;
+}
+
 #what-im-learning-next {
+    padding-top: 20px;
     font-size: 1.25rem;
     display: flex;
     flex-direction: column;
+}
+#what-im-learning-next h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding-bottom: none;
+
 }
 
 #what-im-learning-next p {
     font-size: 1rem;
 }
+
+
+/*Contact page CSS begins*/
 
 #lets-connect {
     font-size: 1.25rem;
