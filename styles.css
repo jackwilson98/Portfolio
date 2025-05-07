@@ -5,6 +5,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #000000;
     @media only screen and (max-width: 600px) {
         font-size: 14px;
     }
@@ -16,13 +17,17 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
+    font-family: 'roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #F5F5F5;
 }
 
 main {
     width: 90%;
-    max-width: 800px;
+    max-width: 1200px;
     text-align: left;
-    margin: 20px auto;
+    margin: 0px auto;
+    padding: 20px;
 }
 
 
@@ -32,8 +37,17 @@ h1 {
     padding: 20px 0;
 }
 
+h1, h2, h3 {
+    font-family: 'poppins', sans-serif;
+}
+
 header {
-    border-bottom: 1px solid black
+    border-bottom: 1px solid black;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: #F5F5F5;
+    width: 100%;
 }
 
 nav {
@@ -47,22 +61,29 @@ nav ul {
     margin: 0 auto;
 }
 
+
 nav ul li {
     display: inline-block;
     margin: 0 10px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    margin: 0 15px;
 }
+
 
 nav ul li a {
     text-decoration: none;
     color: black;
+    transition: color 0.3s ease;
 }
+
 nav ul li a:hover {
     color: cornflowerblue;
 }
+
 nav ul li a.active {
     color: #FF6347;
 }
+
 nav ul li a:visited {
     color: #ba09eb;
 }
@@ -71,13 +92,16 @@ nav ul li a:visited {
 
 .profile-picture {
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
     border-radius: 50%;
     margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  
 }
 
+/*Welcome and About me*/
 .welcome {
     display: flex;
     align-items: center;
@@ -101,6 +125,7 @@ nav ul li a:visited {
     font-size: 1rem; 
 }
 
+/*Skills*/
 #skills-and-technologies {
     margin: 20px 0;
     border-bottom: 1px solid black;
@@ -123,6 +148,8 @@ nav ul li a:visited {
     padding: 5px;
 }
 
+
+/*Projects*/
 #projects {
     border-bottom: 1px solid black;
 }
@@ -132,6 +159,7 @@ nav ul li a:visited {
     margin: 0;
 }
 
+/*What I'm learning */
 #what-im-learning-next {
     padding-top: 20px;
     font-size: 1.25rem;
