@@ -53,7 +53,8 @@ header {
 nav {
     display: flex;
     font-size: 1.25rem;
-    
+    position: relative;
+    z-index: 100;
 }
    
 nav ul {
@@ -67,7 +68,6 @@ nav ul li {
     display: inline-block;
     margin: 0 10px;
     padding-bottom: 20px;
-    margin: 0 15px;
 }
 
 
@@ -75,17 +75,18 @@ nav ul li a {
     text-decoration: none;
     color: black;
     transition: color 0.3s ease;
+    cursor: pointer;
 }
 
-nav ul li a:hover {
-    color: cornflowerblue;
+header nav ul li a:hover {
+    color: cornflowerblue !important;
 }
 
-nav ul li a.active {
-    color: #FF6347;
+header nav ul li a.active {
+    color: #FF6347 !important;
 }
 
-nav ul li a:visited {
+header nav ul li a:visited {
     color: #ba09eb;
 }
 
