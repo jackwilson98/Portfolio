@@ -109,27 +109,18 @@ nav ul li a:visited {
 #skills-and-technologies h2 {
     font-size: 1.5rem;
     margin: 0;
+    padding-bottom: 10px;
+}
+
+#skills-and-technologies h3{
+    font-size: 1.25rem;
+    margin: 0;
     padding-bottom: none;
 }
 
 #skills-and-technologies li{
     margin: 0;
     padding: 5px;
-}
-
-.front-end-development{
-    font-size: 1.2rem;
-
-}
-
-.web-Accessibility{
-    font-size: 1.2rem;
-
-}
-
-.version-control{
-    font-size: 1.2rem;
-
 }
 
 #projects {
@@ -139,7 +130,6 @@ nav ul li a:visited {
 #projects h2 {
     font-size: 1.5rem;
     margin: 0;
-    padding-bottom: none;
 }
 
 #what-im-learning-next {
@@ -168,21 +158,19 @@ nav ul li a:visited {
     flex-direction: column;
 }
 
-#lets-connect ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+#lets-connect p {
+    margin: 10px 0;
     font-size: 1rem;
 }
 
-#lets-connect ul li a {
+#lets-connect a {
     text-decoration: none;
 
 }
-#lets-connect ul li a:hover {
+#lets-connect a:hover {
     color: cornflowerblue;
 }
-#lets-connect ul li a.active {
+#lets-connect a.active {
     color: #FF6347;
 }
 #lets-connect ul li a:visited {
